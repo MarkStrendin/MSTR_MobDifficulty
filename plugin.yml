@@ -1,0 +1,26 @@
+name: MSTR_MobDifficulty
+main: ca.strendin.Bukkit.MSTR_MobDifficulty.MSTR_MobDifficulty
+version: 0.1
+authors:
+  - Mark Strendin
+description: Configurable difficulty modifiers for mobs
+
+permissions:
+  MSTR_MobDifficulty.hardmode.zombie:
+    description: Ability to create regions
+    default: op
+  MSTR_MobDifficulty.hardmode.spider:
+    description: Ability to create regions
+    default: op
+  MSTR_MobDifficulty.hardmode.skeleton:
+    description: Ability to create regions
+    default: op
+  MSTR_MobDifficulty.easymode.zombie:
+    description: Ability to create regions
+    default: op
+  MSTR_MobDifficulty.easymode.spider:
+    description: Ability to create regions
+    default: op
+  MSTR_MobDifficulty.easymode.skeleton:
+    description: Ability to create regions
+    default: op
