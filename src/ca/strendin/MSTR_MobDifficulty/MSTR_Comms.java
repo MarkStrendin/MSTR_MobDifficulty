@@ -64,4 +64,13 @@ public class MSTR_Comms {
         }        
     }
     
+    public static void sendToDebuggers(String message) {
+        for(Player thisPlayer : org.bukkit.Bukkit.getServer().getOnlinePlayers()) {
+            if (MSTR_Permissions.isDebugUser(thisPlayer)) {
+                thisPlayer.sendMessage(serverMsgColor + "MobDifficulty: " + message);
+            }        
+        }        
+    }
+    
+    
 }
